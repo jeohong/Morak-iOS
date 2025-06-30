@@ -57,10 +57,10 @@ class MainTabBarController: UITabBarController {
         settingVC.view.backgroundColor = .white
         settingVC.tabBarItem = UITabBarItem(
             title: "설정",
-            image: UIImage(systemName: "person.3"),
+            image: UIImage(systemName: "gear"),
             tag: 3
         )
         
-        viewControllers = [postNav, chatVC, settingVC, settingVC]
+        viewControllers = [postNav, chatVC, freindsVC, settingVC]
     }
 }

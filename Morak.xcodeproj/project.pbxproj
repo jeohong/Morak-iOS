@@ -81,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A3584FE52E129C2B00D8E8AA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A39067A42E12957400AC19DD /* MainTabBarController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		A390675F2E12954900AC19DD = {
 			isa = PBXGroup;
 			children = (
@@ -109,7 +117,7 @@
 				A390679D2E12957400AC19DD /* Assets.xcassets */,
 				A390679E2E12957400AC19DD /* Info.plist */,
 				A39067A02E12957400AC19DD /* LaunchScreen.storyboard */,
-				A39067A42E12957400AC19DD /* MainTabBarController.swift */,
+				A3584FE52E129C2B00D8E8AA /* ViewControllers */,
 			);
 			path = Morak;
 			sourceTree = "<group>";
