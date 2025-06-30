@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A39067A62E12957400AC19DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A390679C2E12957400AC19DD /* AppDelegate.swift */; };
+		A39067A72E12957400AC19DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39067A32E12957400AC19DD /* SceneDelegate.swift */; };
+		A39067A82E12957400AC19DD /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39067A42E12957400AC19DD /* MainTabBarController.swift */; };
+		A39067A92E12957400AC19DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A390679D2E12957400AC19DD /* Assets.xcassets */; };
+		A39067AB2E12957400AC19DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39067A02E12957400AC19DD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A390677F2E12954B00AC19DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A39067602E12954900AC19DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A39067672E12954900AC19DD;
+			remoteInfo = Morak;
+		};
+		A39067892E12954B00AC19DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A39067602E12954900AC19DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A39067672E12954900AC19DD;
+			remoteInfo = Morak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A39067682E12954900AC19DD /* Morak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Morak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A390677E2E12954B00AC19DD /* MorakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39067882E12954B00AC19DD /* MorakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A390679C2E12957400AC19DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A390679D2E12957400AC19DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A390679E2E12957400AC19DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A390679F2E12957400AC19DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A39067A32E12957400AC19DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A39067A42E12957400AC19DD /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A39067812E12954B00AC19DD /* MorakTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MorakTests;
+			sourceTree = "<group>";
+		};
+		A390678B2E12954B00AC19DD /* MorakUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MorakUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A39067652E12954900AC19DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A390677B2E12954B00AC19DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A39067852E12954B00AC19DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A390675F2E12954900AC19DD = {
+			isa = PBXGroup;
+			children = (
+				A39067A52E12957400AC19DD /* Morak */,
+				A39067812E12954B00AC19DD /* MorakTests */,
+				A390678B2E12954B00AC19DD /* MorakUITests */,
+				A39067692E12954900AC19DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A39067692E12954900AC19DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A39067682E12954900AC19DD /* Morak.app */,
+				A390677E2E12954B00AC19DD /* MorakTests.xctest */,
+				A39067882E12954B00AC19DD /* MorakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A39067A52E12957400AC19DD /* Morak */ = {
+			isa = PBXGroup;
+			children = (
+				A390679C2E12957400AC19DD /* AppDelegate.swift */,
+				A39067A32E12957400AC19DD /* SceneDelegate.swift */,
+				A390679D2E12957400AC19DD /* Assets.xcassets */,
+				A390679E2E12957400AC19DD /* Info.plist */,
+				A39067A02E12957400AC19DD /* LaunchScreen.storyboard */,
+				A39067A42E12957400AC19DD /* MainTabBarController.swift */,
+			);
+			path = Morak;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A39067672E12954900AC19DD /* Morak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A39067912E12954B00AC19DD /* Build configuration list for PBXNativeTarget "Morak" */;
+			buildPhases = (
+				A39067642E12954900AC19DD /* Sources */,
+				A39067652E12954900AC19DD /* Frameworks */,
+				A39067662E12954900AC19DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Morak;
+			packageProductDependencies = (
+			);
+			productName = Morak;
+			productReference = A39067682E12954900AC19DD /* Morak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A390677D2E12954B00AC19DD /* MorakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A39067962E12954B00AC19DD /* Build configuration list for PBXNativeTarget "MorakTests" */;
+			buildPhases = (
+				A390677A2E12954B00AC19DD /* Sources */,
+				A390677B2E12954B00AC19DD /* Frameworks */,
+				A390677C2E12954B00AC19DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A39067802E12954B00AC19DD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A39067812E12954B00AC19DD /* MorakTests */,
+			);
+			name = MorakTests;
+			packageProductDependencies = (
+			);
+			productName = MorakTests;
+			productReference = A390677E2E12954B00AC19DD /* MorakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A39067872E12954B00AC19DD /* MorakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A39067992E12954B00AC19DD /* Build configuration list for PBXNativeTarget "MorakUITests" */;
+			buildPhases = (
+				A39067842E12954B00AC19DD /* Sources */,
+				A39067852E12954B00AC19DD /* Frameworks */,
+				A39067862E12954B00AC19DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A390678A2E12954B00AC19DD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A390678B2E12954B00AC19DD /* MorakUITests */,
+			);
+			name = MorakUITests;
+			packageProductDependencies = (
+			);
+			productName = MorakUITests;
+			productReference = A39067882E12954B00AC19DD /* MorakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A39067602E12954900AC19DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					A39067672E12954900AC19DD = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					A390677D2E12954B00AC19DD = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A39067672E12954900AC19DD;
+					};
+					A39067872E12954B00AC19DD = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A39067672E12954900AC19DD;
+					};
+				};
+			};
+			buildConfigurationList = A39067632E12954900AC19DD /* Build configuration list for PBXProject "Morak" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A390675F2E12954900AC19DD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A39067692E12954900AC19DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A39067672E12954900AC19DD /* Morak */,
+				A390677D2E12954B00AC19DD /* MorakTests */,
+				A39067872E12954B00AC19DD /* MorakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A39067662E12954900AC19DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39067A92E12957400AC19DD /* Assets.xcassets in Resources */,
+				A39067AB2E12957400AC19DD /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A390677C2E12954B00AC19DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A39067862E12954B00AC19DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A39067642E12954900AC19DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39067A62E12957400AC19DD /* AppDelegate.swift in Sources */,
+				A39067A72E12957400AC19DD /* SceneDelegate.swift in Sources */,
+				A39067A82E12957400AC19DD /* MainTabBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A390677A2E12954B00AC19DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A39067842E12954B00AC19DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A39067802E12954B00AC19DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A39067672E12954900AC19DD /* Morak */;
+			targetProxy = A390677F2E12954B00AC19DD /* PBXContainerItemProxy */;
+		};
+		A390678A2E12954B00AC19DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A39067672E12954900AC19DD /* Morak */;
+			targetProxy = A39067892E12954B00AC19DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A39067A02E12957400AC19DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A390679F2E12957400AC19DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A39067922E12954B00AC19DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Morak/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "모락";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brokong.Morak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A39067932E12954B00AC19DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Morak/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "모락";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brokong.Morak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A39067942E12954B00AC19DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A39067952E12954B00AC19DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A39067972E12954B00AC19DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brokong.MorakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Morak.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Morak";
+			};
+			name = Debug;
+		};
+		A39067982E12954B00AC19DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brokong.MorakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Morak.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Morak";
+			};
+			name = Release;
+		};
+		A390679A2E12954B00AC19DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brokong.MorakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Morak;
+			};
+			name = Debug;
+		};
+		A390679B2E12954B00AC19DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brokong.MorakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Morak;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A39067632E12954900AC19DD /* Build configuration list for PBXProject "Morak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39067942E12954B00AC19DD /* Debug */,
+				A39067952E12954B00AC19DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A39067912E12954B00AC19DD /* Build configuration list for PBXNativeTarget "Morak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39067922E12954B00AC19DD /* Debug */,
+				A39067932E12954B00AC19DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A39067962E12954B00AC19DD /* Build configuration list for PBXNativeTarget "MorakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39067972E12954B00AC19DD /* Debug */,
+				A39067982E12954B00AC19DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A39067992E12954B00AC19DD /* Build configuration list for PBXNativeTarget "MorakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A390679A2E12954B00AC19DD /* Debug */,
+				A390679B2E12954B00AC19DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A39067602E12954900AC19DD /* Project object */;
+}
