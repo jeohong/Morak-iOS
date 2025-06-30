@@ -26,6 +26,7 @@
 		A35850152E12A5F600D8E8AA /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A358500B2E12A5F600D8E8AA /* Pretendard-SemiBold.otf */; };
 		A35850162E12A5F600D8E8AA /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A35850062E12A5F600D8E8AA /* Pretendard-ExtraBold.otf */; };
 		A35850182E12A63700D8E8AA /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35850172E12A63700D8E8AA /* UIFont+.swift */; };
+		A358501A2E12A8BA00D8E8AA /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35850192E12A8BA00D8E8AA /* UIImage+.swift */; };
 		A39067A62E12957400AC19DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A390679C2E12957400AC19DD /* AppDelegate.swift */; };
 		A39067A72E12957400AC19DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39067A32E12957400AC19DD /* SceneDelegate.swift */; };
 		A39067A82E12957400AC19DD /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39067A42E12957400AC19DD /* MainTabBarController.swift */; };
@@ -64,6 +65,7 @@
 		A358500B2E12A5F600D8E8AA /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
 		A358500C2E12A5F600D8E8AA /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
 		A35850172E12A63700D8E8AA /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
+		A35850192E12A8BA00D8E8AA /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
 		A39067682E12954900AC19DD /* Morak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Morak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A390677E2E12954B00AC19DD /* MorakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A39067882E12954B00AC19DD /* MorakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +126,7 @@
 			children = (
 				A3584FE72E129DF800D8E8AA /* UIColor+.swift */,
 				A35850172E12A63700D8E8AA /* UIFont+.swift */,
+				A35850192E12A8BA00D8E8AA /* UIImage+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -386,6 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A39067A62E12957400AC19DD /* AppDelegate.swift in Sources */,
+				A358501A2E12A8BA00D8E8AA /* UIImage+.swift in Sources */,
 				A3584FE82E129DF800D8E8AA /* UIColor+.swift in Sources */,
 				A39067A72E12957400AC19DD /* SceneDelegate.swift in Sources */,
 				A35850182E12A63700D8E8AA /* UIFont+.swift in Sources */,

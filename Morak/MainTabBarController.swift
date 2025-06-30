@@ -21,14 +21,14 @@ class MainTabBarController: UITabBarController {
         
         let appearance = UITabBarAppearance()
         appearance.configureWithOpaqueBackground()
-        appearance.backgroundColor = .white
+        appearance.backgroundColor = .theme.lightYellow
         
         tabBar.standardAppearance = appearance
         tabBar.scrollEdgeAppearance = appearance
     }
     
     private func setupTabs() {
-        let postVC = UIViewController()
+        let postVC = PostViewController()
         let postNav = UINavigationController(rootViewController: postVC)
         postNav.navigationBar.isHidden = true
         postNav.tabBarItem = UITabBarItem(
