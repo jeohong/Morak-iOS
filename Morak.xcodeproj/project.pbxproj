@@ -32,6 +32,7 @@
 		A39067A82E12957400AC19DD /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39067A42E12957400AC19DD /* MainTabBarController.swift */; };
 		A39067A92E12957400AC19DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A390679D2E12957400AC19DD /* Assets.xcassets */; };
 		A39067AB2E12957400AC19DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39067A02E12957400AC19DD /* LaunchScreen.storyboard */; };
+		D4D88DCF2E14175100AE3B9C /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D88DCE2E14175100AE3B9C /* PostViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		A390679F2E12957400AC19DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A39067A32E12957400AC19DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A39067A42E12957400AC19DD /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		D4D88DCE2E14175100AE3B9C /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -150,6 +152,7 @@
 		A3584FEF2E12A19700D8E8AA /* PostTab */ = {
 			isa = PBXGroup;
 			children = (
+				D4D88DCD2E14174800AE3B9C /* ViewModel */,
 				A3584FED2E12A17900D8E8AA /* Views */,
 				A3584FF02E12A1A200D8E8AA /* ViewControllers */,
 			);
@@ -222,6 +225,14 @@
 				A35850032E12A5E000D8E8AA /* Resource */,
 			);
 			path = Morak;
+			sourceTree = "<group>";
+		};
+		D4D88DCD2E14174800AE3B9C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D4D88DCE2E14175100AE3B9C /* PostViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -394,6 +405,7 @@
 				A39067A72E12957400AC19DD /* SceneDelegate.swift in Sources */,
 				A35850182E12A63700D8E8AA /* UIFont+.swift in Sources */,
 				A39067A82E12957400AC19DD /* MainTabBarController.swift in Sources */,
+				D4D88DCF2E14175100AE3B9C /* PostViewModel.swift in Sources */,
 				A3584FEB2E12A07700D8E8AA /* PostViewController.swift in Sources */,
 				A3584FF22E12A1D300D8E8AA /* PostHeaderView.swift in Sources */,
 			);

@@ -20,21 +20,21 @@ class PostHeaderView: UIView {
         $0.font = .pretendard.largeTitle
     }
     
-    private let notificationButton = UIButton().then {
+    let notificationButton = UIButton().then {
         if let image = UIImage(named: "ic_bell") {
             let resizedImage = image.resize(to: CGSize(width: 30, height: 30))
             $0.setImage(resizedImage, for: .normal)
         }
     }
     
-    private let searchButton = UIButton().then {
+    let searchButton = UIButton().then {
         if let image = UIImage(named: "ic_search") {
             let resizedImage = image.resize(to: CGSize(width: 30, height: 30))
             $0.setImage(resizedImage, for: .normal)
         }
     }
     
-    private let filterButton = UIButton().then {
+    let filterButton = UIButton().then {
         if let image = UIImage(named: "ic_filter") {
             let resizedImage = image.resize(to: CGSize(width: 30, height: 30))
             $0.setImage(resizedImage, for: .normal)
