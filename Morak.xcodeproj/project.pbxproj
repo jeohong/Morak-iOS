@@ -27,6 +27,8 @@
 		A35850162E12A5F600D8E8AA /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A35850062E12A5F600D8E8AA /* Pretendard-ExtraBold.otf */; };
 		A35850182E12A63700D8E8AA /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35850172E12A63700D8E8AA /* UIFont+.swift */; };
 		A358501A2E12A8BA00D8E8AA /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35850192E12A8BA00D8E8AA /* UIImage+.swift */; };
+		A38587A12E1BE37400CE3DA0 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38587A02E1BE37400CE3DA0 /* PostModel.swift */; };
+		A38587A42E1BE5AE00CE3DA0 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38587A32E1BE5AE00CE3DA0 /* PostCell.swift */; };
 		A39067A62E12957400AC19DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A390679C2E12957400AC19DD /* AppDelegate.swift */; };
 		A39067A72E12957400AC19DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39067A32E12957400AC19DD /* SceneDelegate.swift */; };
 		A39067A82E12957400AC19DD /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39067A42E12957400AC19DD /* MainTabBarController.swift */; };
@@ -67,6 +69,8 @@
 		A358500C2E12A5F600D8E8AA /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
 		A35850172E12A63700D8E8AA /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
 		A35850192E12A8BA00D8E8AA /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
+		A38587A02E1BE37400CE3DA0 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		A38587A32E1BE5AE00CE3DA0 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		A39067682E12954900AC19DD /* Morak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Morak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A390677E2E12954B00AC19DD /* MorakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A39067882E12954B00AC19DD /* MorakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				A3584FF12E12A1D300D8E8AA /* PostHeaderView.swift */,
+				A38587A32E1BE5AE00CE3DA0 /* PostCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -152,7 +157,8 @@
 		A3584FEF2E12A19700D8E8AA /* PostTab */ = {
 			isa = PBXGroup;
 			children = (
-				D4D88DCD2E14174800AE3B9C /* ViewModel */,
+				A38587A22E1BE37E00CE3DA0 /* Models */,
+				D4D88DCD2E14174800AE3B9C /* ViewModels */,
 				A3584FED2E12A17900D8E8AA /* Views */,
 				A3584FF02E12A1A200D8E8AA /* ViewControllers */,
 			);
@@ -191,6 +197,14 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		A38587A22E1BE37E00CE3DA0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A38587A02E1BE37400CE3DA0 /* PostModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		A390675F2E12954900AC19DD = {
 			isa = PBXGroup;
 			children = (
@@ -227,12 +241,12 @@
 			path = Morak;
 			sourceTree = "<group>";
 		};
-		D4D88DCD2E14174800AE3B9C /* ViewModel */ = {
+		D4D88DCD2E14174800AE3B9C /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
 				D4D88DCE2E14175100AE3B9C /* PostViewModel.swift */,
 			);
-			path = ViewModel;
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -400,12 +414,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A39067A62E12957400AC19DD /* AppDelegate.swift in Sources */,
+				A38587A12E1BE37400CE3DA0 /* PostModel.swift in Sources */,
 				A358501A2E12A8BA00D8E8AA /* UIImage+.swift in Sources */,
 				A3584FE82E129DF800D8E8AA /* UIColor+.swift in Sources */,
 				A39067A72E12957400AC19DD /* SceneDelegate.swift in Sources */,
 				A35850182E12A63700D8E8AA /* UIFont+.swift in Sources */,
 				A39067A82E12957400AC19DD /* MainTabBarController.swift in Sources */,
 				D4D88DCF2E14175100AE3B9C /* PostViewModel.swift in Sources */,
+				A38587A42E1BE5AE00CE3DA0 /* PostCell.swift in Sources */,
 				A3584FEB2E12A07700D8E8AA /* PostViewController.swift in Sources */,
 				A3584FF22E12A1D300D8E8AA /* PostHeaderView.swift in Sources */,
 			);
